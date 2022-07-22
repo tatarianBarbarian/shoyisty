@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { Button, ButtonGroup, ListGroup, ListGroupItem } from "shards-react";
 import meals from './meals'
 
