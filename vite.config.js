@@ -1,6 +1,8 @@
+import { defineConfig } from 'vite'
 import reactPlugin from '@vitejs/plugin-react'
 
-export default {
+export default defineConfig({
+  base: '',
   plugins: [reactPlugin(
     {
       jsxImportSource: "@emotion/react",
@@ -9,4 +11,4 @@ export default {
       }
     }
   )],
-}
+})
